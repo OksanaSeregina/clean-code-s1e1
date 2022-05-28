@@ -21,11 +21,9 @@
 }
 
 @media (max-width: 768px) {
-
   .header {
     text-align: center;
   }
-
 }
 
 .main {
@@ -148,10 +146,11 @@ button {
 
 .delete-img:hover {
   transform: rotateZ(0);
+}
 
 /* Completed */
 .cross-task .list-item-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
