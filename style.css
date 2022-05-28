@@ -4,49 +4,61 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header .header-img {
   width: 100%;
 }
+
 .header .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
+
   .header {
     text-align: center;
   }
+
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .enter-tasks {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .new-task-wrapper {
   display: flex;
 }
+
 .list-tasks {
   margin: 0;
   padding: 0px;
 }
+
 h3,
 li {
   list-style: none;
 }
+
 input,
 button {
   outline: none;
 }
+
 .control-button {
   background: none;
   border: 0px;
@@ -56,9 +68,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .control-button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title {
   color: #333;
@@ -69,6 +83,7 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .input-text {
   margin: 0;
   font-size: 18px;
@@ -81,6 +96,7 @@ button {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input-text:focus {
   color: #333;
 }
@@ -90,6 +106,7 @@ button {
   display: block;
   margin: 0 0 20px;
 }
+
 .new-task-input {
   width: 318px;
 }
@@ -99,11 +116,11 @@ button {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .list-item > * {
   vertical-align: middle;
 }
@@ -111,23 +128,26 @@ button {
 .list-item > .input-checkbox {
   margin: 0 10px;
 }
+
 .list-item > .list-item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list-item > .input-text {
   width: 226px;
 }
+
 .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-img:hover {
   transform: rotateZ(0);
-
 
 /* Completed */
 .cross-task .list-item-label {
