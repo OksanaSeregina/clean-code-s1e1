@@ -32,7 +32,7 @@
   margin: 0 auto 0;
 }
 
-.input-tasks {
+.main__display-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -57,7 +57,7 @@ button {
   outline: none;
 }
 
-.control-button {
+.main__btn-control {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +67,7 @@ button {
   cursor: pointer;
 }
 
-.control-button:hover {
+.main__btn-control:hover {
   color: #3a3a3a;
 }
 
@@ -82,7 +82,7 @@ button {
   text-transform: uppercase;
 }
 
-.input-text {
+.main__input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -95,7 +95,7 @@ button {
   color: #888;
 }
 
-.input-text:focus {
+.main__input-text:focus {
   color: #333;
 }
 
@@ -134,7 +134,7 @@ button {
   width: 226px;
 }
 
-.tasks__item > .input-text {
+.tasks__item > .main__input-text {
   width: 226px;
 }
 
@@ -149,21 +149,21 @@ button {
 }
 
 /* Completed */
-.cross-task .tasks__item-label {
+.tasks__done .tasks__item-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.tasks .tasks__item .input-text {
+.tasks .tasks__item .main__input-text {
   display: none;
 }
 
-.tasks .edit-mode .input-text {
+.tasks .tasks__item-edit .main__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.tasks .edit-mode .tasks__item-label {
+.tasks .tasks__item-edit .tasks__item-label {
   display: none;
 }
